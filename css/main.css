@@ -19,3 +19,6 @@ h2 { margin: 0 0 8px; font-size: 22px; }
   .header { align-items: flex-start; flex-direction: column; }
   .tasks { grid-template-columns: 1fr; }
 }
+
+/* Нижній блок сторінки після першої публікації. */
+footer { max-width: 1040px; margin: 24px auto 0; padding: 24px 28px; border-top: 1px solid #cbd9e3; color: #426079; }
