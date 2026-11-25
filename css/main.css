@@ -13,3 +13,9 @@ h2 { margin: 0 0 8px; font-size: 22px; }
 .tasks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 0; list-style-position: inside; }
 .tasks li { padding: 24px; background: white; border: 1px solid #cbd9e3; border-radius: 10px; }
 .tasks p { margin-bottom: 0; }
+/* Відомості про автора та розміщення на вузьких екранах. */
+.author { margin-top: 32px; padding: 24px; background: #e5eff6; border-radius: 10px; }
+@media (max-width: 650px) {
+  .header { align-items: flex-start; flex-direction: column; }
+  .tasks { grid-template-columns: 1fr; }
+}
