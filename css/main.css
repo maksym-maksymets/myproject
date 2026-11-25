@@ -7,3 +7,9 @@ a { color: #185f8c; }
 .header { display: flex; justify-content: space-between; align-items: center; gap: 20px; border-bottom: 1px solid #cbd9e3; }
 .logo { font-weight: bold; text-decoration: none; }
 nav { display: flex; gap: 20px; }
+/* Картки з темами лабораторних робіт. */
+h1 { font-size: clamp(28px, 4vw, 44px); line-height: 1.2; }
+h2 { margin: 0 0 8px; font-size: 22px; }
+.tasks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 0; list-style-position: inside; }
+.tasks li { padding: 24px; background: white; border: 1px solid #cbd9e3; border-radius: 10px; }
+.tasks p { margin-bottom: 0; }
