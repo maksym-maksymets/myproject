@@ -1,2 +1,9 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: Arial, sans-serif; }
+/* Спільні кольори, відступи та ширина сторінки. */
+body { background: #f4f7fa; color: #182b39; line-height: 1.6; }
+main, .header { max-width: 1040px; margin: auto; padding: 28px; }
+a { color: #185f8c; }
+.header { display: flex; justify-content: space-between; align-items: center; gap: 20px; border-bottom: 1px solid #cbd9e3; }
+.logo { font-weight: bold; text-decoration: none; }
+nav { display: flex; gap: 20px; }
